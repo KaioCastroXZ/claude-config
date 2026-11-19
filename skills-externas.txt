@@ -1,0 +1,22 @@
+# Skills externas instaladas pelo install.sh (npx skills add, escopo global).
+# Formato: <dono/repositorio> <nome-da-skill>
+# Linhas iniciadas por # são ignoradas. Descomente só o que for usar,
+# para não poluir o contexto do Claude.
+
+# Base: evita o visual genérico de IA (oficial da Anthropic)
+anthropics/skills frontend-design
+
+# Animação com GSAP (iart-ai/web-animation-skills)
+iart-ai/web-animation-skills gsap-web
+iart-ai/web-animation-skills accessible-animation
+
+# Opcionais da mesma coleção
+# iart-ai/web-animation-skills page-transition-animation
+# iart-ai/web-animation-skills svg-animation
+# iart-ai/web-animation-skills micro-interaction
+# iart-ai/web-animation-skills 60fps-animation
+
+# Opcionais de outras coleções (conferir o nome exato da skill no repositório)
+# freshtechbro/claudedesignskills <skill>
+# rshvr/elite-web-design <skill>
+# sickn33/agentic-awesome-skills antigravity-design-expert
